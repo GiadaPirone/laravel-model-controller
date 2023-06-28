@@ -7,22 +7,26 @@
     box-sizing: border-box;
 }
 
-img {
-    max-width: 100%;
-}
+// img {
+//     max-width: 100%;
+// }
 
 body {
-    background-color: #222;
+    background-color: #014B96;
     color: white;
 }
 
 header,
 footer {
     width: 100%;
-    background: #EEE;
-    color: black;
+    background: #06023d;
+    color: white;
 }
 
 header img.logo {
     height: 2rem;
+}
+
+.imgLogo{
+    width: 10%;
 }

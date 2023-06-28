@@ -2,11 +2,13 @@
 
 @section('content')
 <div class="container my-3">
-    <h1>Film</h1>
+    <div class="d-flex justify-content-center">
+        <h1>Lista Film:</h1>
+    </div>
     <div class="row g-4">
         <div class="col d-flex flex-wrap">
             @foreach ($movies as $movie)
-            <div class="card " style="width: 18rem;">
+            <div class="card m-3 " style="width: 18rem;">
                 <div class="card-body">
                   <h5 class="card-title">{{$movie ->title}}</h5>
                   <h6 class="card-subtitle mb-2 text-muted">Titolo originale: {{$movie ->original_title}}</h6>
