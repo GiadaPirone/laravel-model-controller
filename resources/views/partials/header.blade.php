@@ -1,7 +1,8 @@
 <header class="p-3 bg-primary" >
     <div class="d-flex justify-content-between">
+        
 
-        <img class="imgLogo" src="{{Vite::asset('resources/img/uci-cinemas.jpg')}}" alt="">
+        <a href="/"><img class="imgLogo" src="{{Vite::asset('resources/img/uci-cinemas.jpg')}}" alt=""></a>
 
         <h1>Oggi al cinema</h1>
 

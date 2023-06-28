@@ -12,4 +12,9 @@ class PageController extends Controller
         $movies = Movie::all();
         return view('welcome', compact('movies'));
     }
+
+    public function data(){
+        $movies = Movie::orderBy('date','DESC')->get();
+        return view('welcome', compact('movies'));
+    }
 }

@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[PageController::class, 'index'] );
 
+Route::get('/filtro', [PageController::class, 'data']);
+
 // Route::get('/otherpage', function () {
 //     $links = config('store.someLinks');
 //     return view('other', compact('links'));
